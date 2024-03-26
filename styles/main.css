@@ -8,6 +8,14 @@ body {
   height: 100%vh;
 }
 
+.navdiv {
+  background-color: #ffb5b5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
 .profile {
   width: 150px;
   height: auto;
