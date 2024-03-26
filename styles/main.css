@@ -1,0 +1,19 @@
+html {
+  background-color: #ffcbcb;
+  margin: 0px 30px;
+}
+
+body {
+  background-color: white;
+}
+
+.profile {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+}
