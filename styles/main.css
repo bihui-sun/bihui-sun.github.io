@@ -5,15 +5,26 @@ html {
 
 body {
   background-color: white;
+  height: 100%vh;
 }
 
 .profile {
-  width: 350px;
+  width: 150px;
   height: auto;
   border-radius: 50%;
+  text-align: center;
+}
+
+.content-image {
+  width: 300px;
+  height: auto;
 }
 
 .container {
-  display: grid;
-  height: 100vh;
+  text-align: center;
+}
+
+.content {
+  display: inline-block;
+  text-align: center;
 }
