@@ -6,6 +6,16 @@ html {
 body {
   background-color: white;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
 }
 
 .navdiv {
@@ -27,14 +37,23 @@ footer {
   color: #fff;
 }
 
+/* above stylings are the same as main.css
+   below stylings are the new stylings for html-css  */
+
 h1 {
   text-align: center;
+  font-family: 'Alice', serif;
+  font-style: normal;
+  color: #132743;
 }
 
 .inline-item,
 .inline-block-item,
 .block-item {
   margin-bottom: 20px;
+  font-family: 'Alice', serif;
+  color: #407088;
+  font-weight: bold;
 }
 
 @media (min-width: 990px) {
@@ -71,4 +90,6 @@ h1 {
 
 .item {
   text-align: left;
+  color: black;
+  font-weight: normal;
 }
