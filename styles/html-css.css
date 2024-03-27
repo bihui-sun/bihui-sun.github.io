@@ -1,0 +1,29 @@
+html {
+  background-color: #ffcbcb;
+  margin: 0px 15px;
+}
+
+body {
+  background-color: white;
+  height: 100%vh;
+}
+
+.navdiv {
+  /*position: fixed;*/
+  background-color: #ffb5b5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
