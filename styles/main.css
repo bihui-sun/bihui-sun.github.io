@@ -19,6 +19,14 @@ body {
   padding: 10px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #ffb5b5;
+  color: #fff;
+}
+
 .profile-image {
   width: 150px;
   height: auto;
