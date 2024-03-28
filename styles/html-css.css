@@ -10,12 +10,24 @@ body {
   padding: 0;
 }
 
+/* added this bit on Thursday hoping to get the nav bar to reach screen width but failed, the styling down didn't change anything.
 .navbar {
   width: 100%;
   margin: 0;
   padding: 0;
   left: 0;
   right: 0;
+}
+*/
+.navdiv {
+  /*position: fixed;*/
+  background-color: #ffb5b5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 0;
+  padding: 10px;
 }
 
 .navdiv {
@@ -27,6 +39,46 @@ body {
   column-gap: 10px;
   margin: 0;
   padding: 10px;
+}
+
+/* style dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: #ffb5b5;
+  font-family: inherit;
+  color: blue;
+  font-size: inherit;
+  margin: 0;
+}
+
+/* add background-color when nav bar links on horver */
+.navdiv a:hover,
+.dropdown:hover .dropbtn {
+  background-color: whitesmoke;
+}
+
+/* hide dropdown content by default*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* block display the link inside dropdown*/
+.dropdown-content a {
+  float: none;
+  display: block;
+}
+
+/* add background color to dropdown links on hover*/
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
 
 footer {

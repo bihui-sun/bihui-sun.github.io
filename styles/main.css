@@ -10,6 +10,7 @@ body {
   padding: 0;
 }
 
+/*I was hoping to change the style to make the nav bar to reach screen width but couldn't do it */
 .navdiv {
   /*position: fixed;*/
   background-color: #ffb5b5;
