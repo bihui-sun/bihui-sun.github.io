@@ -21,6 +21,46 @@ body {
   padding: 10px;
 }
 
+/* style dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: #ffb5b5;
+  font-family: inherit;
+  color: blue;
+  font-size: inherit;
+  margin: 0;
+}
+
+/* add background-color when nav bar links on horver */
+.navdiv a:hover,
+.dropdown:hover .dropbtn {
+  background-color: whitesmoke;
+}
+
+/* hide dropdown content by default*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* block display the link inside dropdown*/
+.dropdown-content a {
+  float: none;
+  display: block;
+}
+
+/* add background color to dropdown links on hover*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -44,7 +84,6 @@ footer {
 
 h1 {
   font-family: 'Alice', serif;
-  /*font-weight: 400;*/
   font-style: normal;
   color: #132743;
 }
@@ -60,6 +99,7 @@ p {
   font-size: 1rem;
 }
 
+/* forming grid when screen width larger than 680px */
 @media (min-width: 680px) {
   .container {
     text-align: center;
@@ -84,6 +124,7 @@ p {
   }
 }
 
+/* Forning inline-block when smaller than 680px */
 @media (max-width: 680px) {
   .container {
     text-align: center;
