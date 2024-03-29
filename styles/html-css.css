@@ -108,6 +108,7 @@ h1 {
   font-weight: bold;
 }
 
+/* I have tried on DevTools then found that 990px is the width that doesn't really require my three pics to be responsive. But these three pics need to be responsive once screen width is smaller than that.*/
 @media (min-width: 990px) {
   .container {
     display: flex;
@@ -137,6 +138,10 @@ h1 {
     display: inline;
     justify-content: center;
     text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
