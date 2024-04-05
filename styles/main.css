@@ -147,3 +147,38 @@ p {
   width: 150px;
   height: auto;
 }
+
+/*emotional intelligence styling*/
+.eq-container,
+.iq-container {
+  border-style: double;
+}
+.eq-container {
+  margin: 0px 15px;
+}
+.iq-container {
+  margin: 0px 15px;
+}
+.item {
+  text-align: left;
+}
+@media (min-width: 720px) {
+  .eq-blog {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  .eq-blog {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+  .eq-container {
+    margin: 15px 15px;
+  }
+  .iq-container {
+    margin: 15px 15px;
+  }
+}
