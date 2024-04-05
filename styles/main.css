@@ -123,6 +123,13 @@ p {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
   }
+
+  /*emotional intelligence styling*/
+  .eq-blog {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* Forning inline-block when smaller than 680px */
@@ -139,6 +146,19 @@ p {
   .image {
     max-width: 100%;
     height: auto;
+  }
+
+  /*emotional intelligence styling*/
+  .eq-blog {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+  .eq-container {
+    margin: 15px 15px;
+  }
+  .iq-container {
+    margin: 15px 15px;
   }
 }
 
@@ -159,26 +179,6 @@ p {
 .iq-container {
   margin: 0px 15px;
 }
-.item {
+.item-eq-blog {
   text-align: left;
-}
-@media (min-width: 720px) {
-  .eq-blog {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-}
-@media (max-width: 720px) {
-  .eq-blog {
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-  }
-  .eq-container {
-    margin: 15px 15px;
-  }
-  .iq-container {
-    margin: 15px 15px;
-  }
 }
