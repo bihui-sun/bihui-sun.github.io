@@ -141,3 +141,9 @@ p {
     height: auto;
   }
 }
+
+/*javascript-dom styling*/
+#loop-image {
+  width: 150px;
+  height: auto;
+}

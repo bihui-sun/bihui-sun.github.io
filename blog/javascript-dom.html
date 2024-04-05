@@ -46,37 +46,130 @@
     </header>
 
     <main>
-      <h1>The Story of Te Houtaewa (PAGE heading)</h1>
+      <h1>JavaScript-DOM</h1>
       <h2>
-        E kore e mau i a koe, he wae kai pakiaka.
-        <em
-          >A foot accustomed to running over roots makes the speediest
-          runner.</em
-        >
-        (Optional SUB title)
+        <em>05 April 2024</em>
       </h2>
-      <h3>10 November 2010</h3>
 
       <p>
-        Te Houtaewa was the fastest runner of his day and played many pranks on
-        his peoples enemies. One morning his mother wanted kumara for the hangi
-        (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a
-        short distance away. He agreed to fetch the kumara and told his mother
-        to prepare the hangi.
+        <strong>
+          1. To describe JavaScript and its relationship to HTML and CSS.
+        </strong>
       </p>
       <p>
-        Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara
-        as he wanted to annoy some Te Rarawa people who lived there. Carrying
-        two large baskets for the kumara, he ran like the wind, completing the
-        journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in
-        the few hours it takes a good hangi to heat up properly. On reaching
-        Ahipara, he went straight to the people's kumara pataka (storehouse for
-        the sweet potatoes) situated at the foot of the hill Whangatauatia.
+        HTML, CSS and JavaScript together is like building a house. HTML is the
+        structrue and bricks to build the house up and CSS is decoration of the
+        hourse, painting the wall yellow or getting the frame blue or putting a
+        pic on the wall. JavaScript is like let the whole house function. To
+        conncet the electricity to the switch then you can control the power
+        system through the switch. Or getting the piples together so you have
+        water supply and you can get water by turing the tap on and off if you
+        finish using it. Also, with power and water, or the other function, you
+        can change how your house looks like and its style.
+      </p>
+      <hr />
+      <p>
+        2. Explain control flow and loops using an example process from everyday
+        life.
       </p>
       <p>
-        While Te Houtaewa was filling his baskets with kumara he was spotted
-        stealing the kai (food). He was immediately recognised.
+        Let's say, I am going to the gym and do some exercise and my control
+        flow will be:
       </p>
+      <img
+        src="/images/loop.png"
+        class="image jstech-image"
+        id="loop-image"
+        alt="a picture to show a loop example in real life"
+      />
+      <p>
+        In loop 1, 2, 3, I do the same thing over and over again (manually) to
+        achieve my outcome for the day.
+      </p>
+      <hr />
+      <p>
+        3. Describe what the DOM is and an example of how you might interact
+        with it.
+      </p>
+      <p>
+        DOM is document object model. And the dom itself is the underlying data
+        structure of objects that make up the document. I'd like to split the
+        DOM up to explain what does every letter represent. D here, let's say it
+        represents the HTML document. O is object, which means every HTML
+        element in the document. With this object representing element, we can
+        use JavaScript to call methods or properties on objects to change them
+        in HTML. M represents the tree-like model of the elements in HTML.
+      </p>
+      <hr />
+      <p>
+        4. Explain the difference between accessing data from arrays and
+        objects.
+      </p>
+      <p>
+        -An array is a list-like structure that consists of an ordered
+        collection of elements, each identified by an index or a key. If we want
+        to declare an array, we use '[ ]' square brackets notation in JavaScript
+        and if we want to access data from an array, we use their numerical
+        position/index in the list to access data:<br />
+      </p>
+      //example:<br />
+      let arrName = [1, 2, 3, 4, 5] <br />
+      let data = arrName[1] //accessing '2' from the array data = 2;<br />
+
+      <p>
+        -An object is a collection of key-value pairs that is used to store
+        various related data. An object is referred to as an instance of its
+        object type or class. Objects consist of properties which have keys and
+        values. Objects are declared using '{ }' curly braces notation in
+        JavaScript. Also, data can be accessed using either <em>dot</em> or
+        <em>bracket</em> notation to get its property and value.<br />
+      </p>
+      //example:<br />
+      let cat = { <br />
+      name: 'Hello Kitty', <br />
+      color: 'white,<br />
+      }<br />
+      cat.name // returns Hello Kitty <br />
+      cat['name'] // returns Hello Kitty <br />
+
+      <hr />
+      <p>5. Explain what functions are and why they are helpful.</p>
+      <p>
+        A function in JavaScript is similar to a procedure—<em
+          >a set of statements that performs a task or calculates a value</em
+        >, but for a procedure to qualify as a function, it should take some
+        input and return an output where there is some obvious relationship
+        between the input and the output. That was from MDN.
+      </p>
+      <p>
+        To put it a simple way, I would like to expain it using an life example:
+        Let's give a daily routine like this:
+      </p>
+      <p>
+        -get up in the morning, cook breakfast(prepare, cook, wash your cooking
+        utensils and the counter space), work/study;
+      </p>
+      <p>
+        -cook lunch(prepare, cook, wash your cooking utensils and the counter
+        space)work/study;
+      </p>
+      <p>
+        -cook dinner(prepare, cook, wash your cooking utensils and the counter
+        space) evening break
+      </p>
+      <img
+        src="/images/function.png"
+        class="image jstech-image"
+        alt="a picture to show how a function will work"
+      />
+      <p>
+        This whole routine means I waste a whole lot of my time and energy
+        cooking and cleaning so, I decided to have this function which can help
+        me finish the whole cooking and cleaning process, and form a new
+        routine, see how clear and easy it is! When I need food, I just tell the
+        function for me to do it, then I just sit and wait.
+      </p>
+      <hr />
     </main>
 
     <!-- this is a comment. -->
