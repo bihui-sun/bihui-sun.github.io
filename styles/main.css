@@ -182,3 +182,27 @@ p {
 .item-eq-blog {
   text-align: left;
 }
+
+/*cultural blog styling*/
+.blog-table {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border: #132743 solid 1px;
+  border-style: double;
+  border-collapse: collapse;
+  font-size: 17px;
+}
+
+th,
+td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: #132743 solid 1px;
+}
+
+th {
+  background-color: #407088;
+}
